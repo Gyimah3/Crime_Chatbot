@@ -11,3 +11,5 @@ PyYAML
 wheel
 nltk==3.5
 Cmake
+pyyaml
+yaml 
