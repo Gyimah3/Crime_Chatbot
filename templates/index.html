@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chatty</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="#" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <section class="msger">
+    <header class="msger-header">
+      <div class="msger-header-title">
+        </i> Mercy the chatbot </i>
+      </div>
+    </header>
+
+    <main class="msger-chat">
+      <div class="msg left-msg">
+        <div class="msg-img" style="background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)"></div>
+
+        <div class="msg-bubble">
+          <div class="msg-info">
+            <div class="msg-info-name">Mercy</div>
+            <div class="msg-info-time"></div>
+          </div>
+
+          <div class="msg-text">
+            Hi, welcome to Mercy! Welcome to Group 2 conversational AI bot,i am here to help you. 😄
+          </div>
+          <div class="msg-text">
+            you can ask me anything related to crime like dowry,sexual abuse,rape and many more....
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <form class="msger-inputarea">
+      <input type="text" class="msger-input" id="textInput" placeholder="Enter your message...">
+      <button type="submit" class="msger-send-btn">Send</button>
+    </form>
+  </section>
+  <!-- partial -->
+  <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+  <script>
+
+    const msgerForm = get(".msger-inputarea");
+    const msgerInput = get(".msger-input");
+    const msgerChat = get(".msger-chat");
+
+
+    // Icons made by Freepik from www.flaticon.com
+    const BOT_IMG = "https://cdn-icons-png.flaticon.com/512/327/327779.png";
+    const PERSON_IMG = "data:image/jpeg;base64,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";
+    const BOT_NAME = "Mercy the Chatbot";
+    const PERSON_NAME = "You";
+
+    msgerForm.addEventListener("submit", event => {
+      event.preventDefault();
+
+      const msgText = msgerInput.value;
+      if (!msgText) return;
+
+      appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
+      msgerInput.value = "";
+      botResponse(msgText);
+    });
+
+    function appendMessage(name, img, side, text) {
+      //   Simple solution for small apps
+      const msgHTML = `
+<div class="msg ${side}-msg">
+  <div class="msg-img" style="background-image: url(${img})"></div>
+  <div class="msg-bubble">
+    <div class="msg-info">
+      <div class="msg-info-name">${name}</div>
+      <div class="msg-info-time">${formatDate(new Date())}</div>
+    </div>
+    <div class="msg-text">${text}</div>
+  </div>
+</div>
+`;
+
+      msgerChat.insertAdjacentHTML("beforeend", msgHTML);
+      msgerChat.scrollTop += 500;
+    }
+
+    function botResponse(rawText) {
+
+      // Bot Response
+      $.get("/get", { msg: rawText }).done(function (data) {
+        console.log(rawText);
+        console.log(data);
+        const msgText = data;
+        appendMessage(BOT_NAME, BOT_IMG, "left", msgText);
+
+      });
+
+    }
+
+
+    // Utils
+    function get(selector, root = document) {
+      return root.querySelector(selector);
+    }
+
+    function formatDate(date) {
+      const h = "0" + date.getHours();
+      const m = "0" + date.getMinutes();
+
+      return `${h.slice(-2)}:${m.slice(-2)}`;
+    }
+
+
+
+  </script>
+
+</body>
+
+</html>
