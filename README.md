@@ -41,9 +41,9 @@ For manual installation, you need to have [`Python3`](https://www.python.org/) o
 
 <table>
     <tr>
-        <th>Interface</th>
-        <th>Input Interface</th>
-        <th>Input Interface</th>
+        <th>chat Interface</th>
+        <th>chat Interface</th>
+        <th>cat Interface</th>
     </tr>
     <tr>
         <td><img src="./images/screen1.png"/></td>
