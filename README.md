@@ -43,7 +43,7 @@ For manual installation, you need to have [`Python3`](https://www.python.org/) o
     <tr>
         <th>chat Interface</th>
         <th>chat Interface</th>
-        <th>cat Interface</th>
+        <th>chat Interface</th>
     </tr>
     <tr>
         <td><img src="./images/screen1.png"/></td>
@@ -53,5 +53,5 @@ For manual installation, you need to have [`Python3`](https://www.python.org/) o
 </table>
 
     
-  ## Author:
+## Author:
 [Gyimah Gideon](https://www.linkedin.com/in/gideon-gyimah-08268b243/)  
