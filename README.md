@@ -37,22 +37,10 @@ For manual installation, you need to have [`Python3`](https://www.python.org/) o
         python main.py
         
         
- ## Screenshots
+ ## Screenshot 1
 
-<table>
-    <tr>
-        <th>Interface and sidebar</th>
-        <th>Input Interface and SideBar</th>
-        <th>Input Interface and Bar</th>
-    </tr>
-    <tr>
-        <td><img src="./images/screen1.png"/></td>
-        <td><img src="./images/screen2.png"/></td>
-        <td><img src="./images/screen3.png"/></td>
-    </tr>
-</table>
+[Gyimah Gideon]('https://github.com/Gyimah3/Crime_Chatbot/blob/main/images/Screen1.png')
 
 
-    
 ## Author:
 [Gyimah Gideon](https://www.linkedin.com/in/gideon-gyimah-08268b243/)  
