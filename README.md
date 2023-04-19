@@ -41,9 +41,9 @@ For manual installation, you need to have [`Python3`](https://www.python.org/) o
 
 <table>
     <tr>
-        <th>chat Interface</th>
-        <th>chat Interface</th>
-        <th>chat Interface</th>
+        <th>Interface and sidebar</th>
+        <th>Input Interface and SideBar</th>
+        <th>Input Interface and Bar</th>
     </tr>
     <tr>
         <td><img src="./images/screen1.png"/></td>
@@ -51,6 +51,7 @@ For manual installation, you need to have [`Python3`](https://www.python.org/) o
         <td><img src="./images/screen3.png"/></td>
     </tr>
 </table>
+
 
     
 ## Author:
