@@ -39,7 +39,7 @@ For manual installation, you need to have [`Python3`](https://www.python.org/) o
         
  ## Screenshot 1
 
-[Gyimah Gideon](https://github.com/Gyimah3/Crime_Chatbot/blob/main/images/Screen1.png)
+![Gyimah Gideon](https://github.com/Gyimah3/Crime_Chatbot/blob/main/images/Screen1.png)
 
 
 ## Author:
