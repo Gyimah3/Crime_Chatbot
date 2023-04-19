@@ -44,7 +44,7 @@ For manual installation, you need to have [`Python3`](https://www.python.org/) o
 ## screenshot 2
 ![](https://github.com/Gyimah3/Crime_Chatbot/blob/main/images/Screen2.png)
 
-## screenshot 2
+## screenshot 3
 ![](https://github.com/Gyimah3/Crime_Chatbot/blob/main/images/Screen3.png)
 
 
